@@ -1,0 +1,35 @@
+{
+  "name": "user-mongoose",
+  "version": "1.0.0",
+  "description": "A user Table managed by mongoose",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "SanGy",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.3",
+    "connect-flash": "^0.1.1",
+    "cookie-parser": "^1.4.3",
+    "crypto-js": "^3.1.9-1",
+    "express": "^4.16.3",
+    "express-joi": "^0.3.1",
+    "express-messages": "^1.0.1",
+    "express-session": "^1.15.6",
+    "hbs": "^4.0.1",
+    "joi": "^13.5.2",
+    "jsonwebtoken": "^8.3.0",
+    "loadash": "^1.0.0",
+    "moment": "^2.22.2",
+    "mongodb": "^3.1.1",
+    "mongoose": "^5.2.6",
+    "morgan": "^1.9.0",
+    "os": "^0.1.1",
+    "passport": "^0.4.0",
+    "passport-local": "^1.0.0",
+    "path": "^0.12.7",
+    "validator": "^10.5.0"
+  }
+}

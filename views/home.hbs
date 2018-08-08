@@ -1,0 +1,12 @@
+<h1>Welcome to C.R.U.D. basic app from Sangy</h1>
+<br />
+<p>Today is: {{{ts}}}</p>
+<ul>
+    <li>POST /todos -> Send data to Mongo DB, format "{"text":"Insert post from Insomnia XYZ"}" </li>
+    <li>GET /todos -> Get data from Mongo DB (.find({}))" </li>
+    <li>GET /todos/:id -> Get a note by id from Mongo DB (.find({id:...}))" </li>
+    <li>DELETE /todos/:id -> Get a note by id from Mongo DB (.find({id:...}))" </li>
+    <li>PATCH /todos/:id -> Update only the "picked" fields:  {"text":"Something u want update","completed" : true/false } -> True/False permit to save a date of completion" </li>
+    <li>GET /todos/delete/:id -> Delete a note by id from Mongo DB (.findOneAndRemove({id:...}))" </li>
+    <li>GET /* -> Bring to 404 page by HBS" </li>
+</ul>
